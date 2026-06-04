@@ -1,0 +1,16 @@
+sort1 uses: Bubble Sort
+
+How do you know?: When tested against Sort 3 using the sorted50000.txt, it performed much better
+because it had to make no changes and quit. This contrastes Sort3, which had to compare every value
+as it went up the sorted list.
+
+sort2 uses: Merge Sort
+
+How do you know?: Both Selection sort and Bubble sort have a O(n^2), and Merge Sort has a O(nlog(n)),
+so merge sort will have the smallest worst-case scenario run time, which corresponds to the times
+measured.
+
+sort3 uses: Selection Sort
+
+How do you know?: When put up against Sort1, Sort3 performed signifigantly worse when using sorted50000.txt.
+This is because sequential sort had to retrace it's steps for every data point.
